@@ -18,7 +18,7 @@
         <b class="font-bold poppins">Fabricio</b> <span class="">Fonseca</span> 
     </h1>
 
-    <div class="sm:flex items-center gap-4 hidden">
+    <div class="sm:flex ml-auto pr-4 items-center gap-4 hidden">
 
         {#each tabs as tab, index}
             <a href={tab.link} 
@@ -31,7 +31,7 @@
     </div> 
 
     <a 
-        href="linked.com/in/fpfonseca" 
+        href="https://www.linkedin.com/in/fpfonseca" 
         target="_blank" 
         class="blueShadow relative overflow-hidden px-5 py-2 group rounded-full bg-white text-slate-950"
     >

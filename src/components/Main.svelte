@@ -1,12 +1,12 @@
 <script>
-    import Step from './Footer.svelte';
+    import Step from './Step.svelte';
 
     let steps = [
-        {name:'Fonsecar', icon:'fa-solid fa-cart-shopping'},
-        {name:'Projeto2', icon:'fa-solid fa-list-check'},
+        {name:'Smoljames Store', icon:'fa-solid fa-cart-shopping'},
+        {name:'Ultimage Todos', icon:'fa-solid fa-list-check'},
         {name:'Projecto3', icon:'fa-solid fa-diagram-project'},
     ];
-    
+
 </script>
 
 <main class="flex flex-col flex-1 p-4">
@@ -23,7 +23,7 @@
             </p>
 
             <a 
-                href="www.linkedin.com/in/fpfonseca"
+                href="https://www.linkedin.com/in/fpfonseca"
                 target="_blank"
                 class="blueShadow mx-auto lg:mr-auto text-base sm:text-lg md:text-xl poppins relative overflow-hidden px-6 py-3 group rounded-full bg-white text-slate-950 cursor-pointer"
             >
@@ -69,18 +69,34 @@
             <p>Watch the video</p>
         </a>
         
-        <div class="grid grid-cols-1 lg:grid-cols-3 lg:gap-10">
+        <div class="grid grid-cols-1 lg:grid-cols-3 gap-12 lg:gap-10">
+            
             <Step step={steps[0]}>
-
+                <p>Smoljames Store is a merchandising store created with 
+                <strong class="text-violet-400">Next.js Commerce.js Stripe.js & Node.js + Express.js!</strong>
+                Commerce.js is a product CMS and Stripe is used for all transaction handling.
+                </p>
             </Step>
+                
             <Step step={steps[1]}>
-
+                <p>Smoljames Store is a merchandising store created with 
+                <strong class="text-violet-400">Next.js Commerce.js Stripe.js & Node.js + Express.js!</strong>
+                Commerce.js is a product CMS and Stripe is used for all transaction handling.
+                </p>
             </Step>
-            <Step step={steps[2]}>
 
+            <Step step={steps[2]}>
+                <p>Smoljames Store is a merchandising store created with 
+                <strong class="text-violet-400">Next.js Commerce.js Stripe.js & Node.js + Express.js!</strong>
+                Commerce.js is a product CMS and Stripe is used for all transaction handling.
+                </p>
             </Step>
        
         </div>
+
+    </section>
+
+    <section dir="about">
 
     </section>
 
