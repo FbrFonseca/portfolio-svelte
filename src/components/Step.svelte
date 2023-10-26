@@ -26,7 +26,7 @@
 
         <div 
             class="ml-auto cursor-pointer hover:text-slate-950 
-            duration-200 realtive after:absolute after:top-0 
+            duration-200 relative after:absolute after:top-0 
             after:h-0 after:right-full after:bg-white after:w-full after:h-full 
             after:duration-200 hover:after:translate-x-full 
             after:z-[-1] overflow-hidden"
