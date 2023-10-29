@@ -5,9 +5,18 @@ border-violet-950 flex flex-col gap-4 sm:gap-8 justify-center items-center"
         Connect with me &darr;
     </p>
     <div class="flex flex-col gap-4 items-center justify-center">
+        <p>
+            <a href="https://www.fabriciofonseca.com" 
+            target="_blank" class="text-violet-400"
+            > 
+                Fabricio Fonseca<sup class="text-xs scale-75 pl-0.5">
+                    <i class="fa-solid fa-arrow-up-right-from-square text-xs scale-[75%]"></i>
+                </sup>
+            </a>
+        </p>
         <p><b class="pr-2">Email</b>f.pereirafonseca@gmail.com</p>
         <p><b class="pr-2">Linkedin</b>
-            <a href="https://linkedin/in/fpfonseca" 
+            <a href="https://www.linkedin.com/in/fpfonseca/" 
             target="_blank" class="text-violet-400"
             > 
                 Fabricio Fonseca<sup class="text-xs scale-75 pl-0.5">
