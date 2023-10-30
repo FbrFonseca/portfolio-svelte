@@ -2,15 +2,18 @@
     import Step from './Step.svelte';
 
     let steps = [
-        {name:'Smoljames Store', icon:'fa-solid fa-cart-shopping'},
-        {name:'Ultimage Todos', icon:'fa-solid fa-list-check'},
-        {name:'Projecto3', icon:'fa-solid fa-diagram-project'},
+        {name:'Fonsecar', icon:'fa-solid fa-car'},
+        {name:'Bank app', icon:'fa-solid fa-university'},
+        {name:'School app', icon:'fa-solid fa-graduation-cap'},
     ];
 
     let benefits = [
-        {name: 'a self taught developer', description: 'My favourite tech includes JavaScript Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda explicabo ab obcaecati totam, tenetur atque, nemo iure debitis qui officiis soluta mollitia itaque earum impedit alias! Quis, qui! Necessitatibus, molestias!'},
-        {name: 'a product design & UX fanatic', description: 'My favourite tech includes JavaScript Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda explicabo ab obcaecati totam, tenetur atque, nemo iure debitis qui officiis soluta mollitia itaque earum impedit alias! Quis, qui! Necessitatibus, molestias!'},
-        {name: 'an excelet communicator', description: 'My favourite tech includes JavaScript Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda explicabo ab obcaecati totam, tenetur atque, nemo iure debitis qui officiis soluta mollitia itaque earum impedit alias! Quis, qui! Necessitatibus, molestias!'},
+        {name: 'a computer science student', 
+        description: 'in the 3rd year of my degree, a tech enthisiast and have been amazed by what technology can lead us since the first time my brother let me play with his super nintendo.'},
+        {name: 'a full stack developer', 
+        description: 'to be 😅. I know, it sounds a bit too much to say it right now, but i am working my way become one. I am experimenting and testing as much as i can with a veriety of techs including C#, JavaScript, PHP, Python, WordPress and others.'},
+        {name: 'an excelet communicator', 
+        description: 'As an international student, i not just learn to get along with people from different backgrounds but to explore it. I like travelling, hiking, meeting people and always up for a good laugh 🍻.'},
     ];
 
 </script>
@@ -25,7 +28,7 @@
             </h2>
 
             <p class="text-base sm:text-lg md:text-xl">
-                My <span class="text-violet-400">favourite tech</span> includes JavaScript Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda explicabo ab obcaecati totam, tenetur atque, nemo iure debitis qui officiis soluta mollitia itaque earum impedit alias! Quis, qui! Necessitatibus, molestias!
+                My <span class="text-violet-400">favourite tech</span> includes JavaScript, React.js Next.js Node.js, Svelte!
             </p>
 
             <a 
@@ -43,7 +46,7 @@
         </div>
 
         <div class="relative grid place-items-center">
-            <img src={"images/profile.png"} alt="Profile image" class="object-cover z-[2] max-h-[80vh]"/>
+            <img src={"images/profile.png"} alt="Profile image" class="object-cover z-[2] max-h-[100vh]"/>
         </div>
 
     </section>
@@ -64,7 +67,7 @@
         
         </div>
 
-        <a 
+        <!-- <a 
             href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
             target="_blank"
             class="mx-auto px-4 py-2 rounded-md border border-solid
@@ -73,28 +76,33 @@
         >
             <i class="fa-regular fa-circle-play" />
             <p>Watch the video</p>
-        </a>
+        </a> -->
         
         <div class="grid grid-cols-1 lg:grid-cols-3 gap-12 lg:gap-10">
             
             <Step step={steps[0]}>
-                <p>Smoljames Store is a merchandising store created with 
-                <strong class="text-violet-400">Next.js Commerce.js Stripe.js & Node.js + Express.js!</strong>
-                Commerce.js is a product CMS and Stripe is used for all transaction handling.
+                <p>Car rent web app built using 
+                <strong class="text-violet-400">React.js, Next.js, Node.js & Tailwind.css!</strong>
+                The aim of this project was to practice my skills creating in a resposive web
+                page, exploring the new possibilites of Next.js 13.
                 </p>
             </Step>
                 
             <Step step={steps[1]}>
-                <p>Smoljames Store is a merchandising store created with 
-                <strong class="text-violet-400">Next.js Commerce.js Stripe.js & Node.js + Express.js!</strong>
-                Commerce.js is a product CMS and Stripe is used for all transaction handling.
+                <p>Coded in <strong class="text-violet-400">C# and WPF in the .Net framework</strong> as part
+                    of a class project. This app include the fundamental functions
+                    needed to operate bank, including cryptografy and record of
+                    users, administrators and transactions history in a MSSQL
+                    database.
                 </p>
             </Step>
 
             <Step step={steps[2]}>
-                <p>Smoljames Store is a merchandising store created with 
-                <strong class="text-violet-400">Next.js Commerce.js Stripe.js & Node.js + Express.js!</strong>
-                Commerce.js is a product CMS and Stripe is used for all transaction handling.
+                <p>In this class project, I coded a
+                    college management application that can be used to administer
+                    staff, students, classes and grades.<strong class="text-violet-400"> C# and Windows Forms
+                    in the .NET framework & MSSQL</strong> database were used in this
+                    assignment.                
                 </p>
             </Step>
        
@@ -102,7 +110,7 @@
 
     </section>
 
-    <section dir="about" class="py-20 pt-10 lg:pt-16 lg:py-32 flex flex-col
+    <section dir="about" id="about" class="py-20 pt-10 lg:pt-16 lg:py-32 flex flex-col
     gap-16 sm:gap-20 md:gap-24 relative">
         
         <div class="flex flex-col gap-2 text-center relative before:absolute 
