@@ -12,7 +12,7 @@
         description: 'in the 3rd year of my degree, a tech enthisiast and have been amazed by what technology can lead us since the first time my brother let me play with his super nintendo.'},
         {name: 'a full stack developer', 
         description: 'to be 😅. I know, it sounds a bit too much to say it right now, but i am working my way become one. I am experimenting and testing as much as i can with a veriety of techs including C#, JavaScript, PHP, Python, WordPress and others.'},
-        {name: 'an excelet communicator', 
+        {name: 'an excelent communicator', 
         description: 'As an international student, i not just learn to get along with people from different backgrounds but to explore it. I like travelling, hiking, meeting people and always up for a good laugh 🍻.'},
     ];
 
@@ -154,15 +154,15 @@
 
         <h5 class="text-2xl sm:text-3xl font-semibold text-center poppins">The <span class="text-violet-500 poppins">Complete</span> Package</h5>
         
-        <div class="flex flex-col overflow-x-scroll gap-10 max-w-[800] mx-auto w-full">
+        <!-- <div class="flex flex-col overflow-x-scroll gap-10 max-w-[800] mx-auto w-full">
             <table class="bg-white text-slate-700 rounded text-center">
                 <thead class="border-b border-solid border-slate-200">
                     <tr class="">
                         <th/>
-                        <th class="whitespace-nowrap p-2 px-4">Candidate #1</th>
-                        <th class="whitespace-nowrap p-2 px-4">Candidate #2</th>
-                        <th class="whitespace-nowrap p-2 px-4">Candidate #3</th>
-                        <th class="whitespace-nowrap bg-violet-700 p-4 px-8 text-white">Me</th>
+                        <th class="whitespace-nowrap p-2 px-4">xxxxxxxxx #1</th>
+                        <th class="whitespace-nowrap p-2 px-4">xxxxxxxxx #2</th>
+                        <th class="whitespace-nowrap p-2 px-4">xxxxxxxxx #3</th>
+                        <th class="whitespace-nowrap bg-violet-700 p-4 px-8 text-white">xxxxxxxxx</th>
                     </tr>
                    
                 </thead>
@@ -239,6 +239,105 @@
                         </td>
 
                     </tr>
+                </tbody>
+            </table>        
+        </div> -->
+
+        <div class="flex flex-col overflow-x-scroll gap-10 max-w-[800] mx-auto w-full">
+            <table class="bg-white text-slate-700 rounded text-justify">
+                
+                <tbody>
+                    <tr class="border-b border-solid border-slate-200">
+                        <td class="border-r border-solid border-white pl-4 pr-8 py-4 font-semibold text-sm whitespace-nowrap">
+                            HTML <i class="fa-brands fa-html5"></i>
+                        </td>
+                        <td>
+                            <i class="fa-solid fa-check text-slate-500"></i>
+                        </td>
+
+                    </tr>
+                    <tr class="border-b border-solid border-slate-200">
+                        <td class="border-r border-solid border-white pl-4 pr-8 py-4 font-semibold text-sm whitespace-nowrap">
+                            CSS <i class="fa-brands fa-css3"></i>
+                        </td>
+                        <td>
+                            <i class="fa-solid fa-check text-slate-500"></i>
+                        </td>
+                       
+                    </tr>
+                    <tr class="border-b border-solid border-slate-200">
+                        <td class="border-r border-solid border-white pl-4 pr-8 py-4 font-semibold text-sm whitespace-nowrap">
+                            JavaScript <i class="fa-brands fa-js"></i>
+                        </td>
+                        <td>
+                            <i class="fa-solid fa-check text-slate-500"></i>
+                        </td>
+                     
+                    </tr>
+                    <tr class="border-b border-solid border-slate-200">
+                        <td class="border-r border-solid border-white pl-4 pr-8 py-4 font-semibold text-sm whitespace-nowrap">
+                            Node.js <i class="fa-brands fa-node-js"></i>
+                        </td>
+                        <td>
+                            <i class="fa-solid fa-check text-slate-500"></i>
+                        </td>
+                    
+                    </tr>
+                    <tr class="border-b border-solid border-slate-200">
+                        <td class="border-r border-solid border-white pl-4 pr-8 py-4 font-semibold text-sm whitespace-nowrap">
+                            React.js <i class="fa-brands fa-react"></i>
+                        </td>
+                        <td>
+                            <i class="fa-solid fa-check text-slate-500"></i>
+                        </td>
+                    
+                    </tr>
+                    <tr class="border-b border-solid border-slate-200">
+                        <td class="border-r border-solid border-white pl-4 pr-8 py-4 font-semibold text-sm whitespace-nowrap">
+                            PHP <i class="fa-brands fa-php"></i>
+                        </td>
+                        <td>
+                            <i class="fa-solid fa-check text-slate-500"></i>
+                        </td>
+                    
+                    </tr>
+                    <tr class="border-b border-solid border-slate-200">
+                        <td class="border-r border-solid border-white pl-4 pr-8 py-4 font-semibold text-sm whitespace-nowrap">
+                            WordPress <i class="fa-brands fa-wordpress"></i>
+                        </td>
+                        <td>
+                            <i class="fa-solid fa-check text-slate-500"></i>
+                        </td>
+                    
+                    </tr>
+                    <tr class="border-b border-solid border-slate-200">
+                        <td class="border-r border-solid border-white pl-4 pr-8 py-4 font-semibold text-sm whitespace-nowrap">
+                            C <i class="fa-solid fa-hashtag"></i>
+                        </td>
+                        <td>
+                            <i class="fa-solid fa-check text-slate-500"></i>
+                        </td>
+                    
+                    </tr>
+                    <tr class="border-b border-solid border-slate-200">
+                        <td class="border-r border-solid border-white pl-4 pr-8 py-4 font-semibold text-sm whitespace-nowrap">
+                            SQL <i class="fa-solid fa-database"></i>
+                        </td>
+                        <td>
+                            <i class="fa-solid fa-check text-slate-500"></i>
+                        </td>
+                    
+                    </tr>
+                    <tr class="border-b border-solid border-slate-200">
+                        <td class="border-r border-solid border-white pl-4 pr-8 py-4 font-semibold text-sm whitespace-nowrap">
+                            Git <i class="fa-brands fa-git-alt"></i>
+                        </td>
+                        <td>
+                            <i class="fa-solid fa-check text-slate-500"></i>
+                        </td>
+                    
+                    </tr>
+
                 </tbody>
             </table>        
         </div>
