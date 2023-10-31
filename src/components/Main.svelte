@@ -2,9 +2,9 @@
     import Step from './Step.svelte';
 
     let steps = [
-        {name:'Fonsecar', icon:'fa-solid fa-car'},
-        {name:'Bank app', icon:'fa-solid fa-university'},
-        {name:'School app', icon:'fa-solid fa-graduation-cap'},
+        {name:'Fonsecar', icon:'fa-solid fa-car', href:'https://github.com/FbrFonseca/Next-js-fonsecar'},
+        {name:'Bank app', icon:'fa-solid fa-university', href:'https://github.com/FbrFonseca'},
+        {name:'School app', icon:'fa-solid fa-graduation-cap', href:'https://github.com/FbrFonseca'},
     ];
 
     let benefits = [
@@ -13,7 +13,7 @@
         {name: 'a full stack developer', 
         description: 'to be 😅. I know, it sounds a bit too much to say it right now, but i am working my way become one. I am experimenting and testing as much as i can with a veriety of techs including C#, JavaScript, PHP, Python, WordPress and others.'},
         {name: 'an excelent communicator', 
-        description: 'As an international student, i not just learn to get along with people from different backgrounds but to explore it. I like travelling, hiking, meeting people and always up for a good laugh 🍻.'},
+        description: 'As an international student, I not just learn to get along with people from different backgrounds but to explore it. I like travelling, hiking, meeting people and always up for a good laugh 🍻.'},
     ];
 
 </script>
@@ -243,96 +243,96 @@
             </table>        
         </div> -->
 
-        <div class="flex flex-col overflow-x-scroll gap-10 max-w-[800] mx-auto w-full">
+        <div class="flex flex-col gap-10 max-w-[800] mx-auto w-full">
             <table class="bg-white text-slate-700 rounded text-justify">
                 
                 <tbody>
                     <tr class="border-b border-solid border-slate-200">
-                        <td class="border-r border-solid border-white pl-4 pr-8 py-4 font-semibold text-sm whitespace-nowrap">
-                            HTML <i class="fa-brands fa-html5"></i>
+                        <td class="border-r border-solid border-white pl-4  py-4 font-semibold text-sm whitespace-nowrap">
+                            HTML <i class="fa-brands absolute fa-html5"></i>
                         </td>
-                        <td>
-                            <i class="fa-solid fa-check text-slate-500"></i>
+                        <td class="rounded bar_ ml-10">
+                            <i class="fa-solid fa-check text-red-500"></i>
                         </td>
 
                     </tr>
                     <tr class="border-b border-solid border-slate-200">
-                        <td class="border-r border-solid border-white pl-4 pr-8 py-4 font-semibold text-sm whitespace-nowrap">
+                        <td class="border-r border-solid border-white pl-4  py-4 font-semibold text-sm whitespace-nowrap">
                             CSS <i class="fa-brands fa-css3"></i>
                         </td>
-                        <td>
+                        <td class="bar_ ml-10">
                             <i class="fa-solid fa-check text-slate-500"></i>
                         </td>
                        
                     </tr>
                     <tr class="border-b border-solid border-slate-200">
-                        <td class="border-r border-solid border-white pl-4 pr-8 py-4 font-semibold text-sm whitespace-nowrap">
+                        <td class="border-r border-solid border-white pl-4  py-4 font-semibold text-sm whitespace-nowrap">
                             JavaScript <i class="fa-brands fa-js"></i>
                         </td>
-                        <td>
+                        <td class="bar_ ml-10">
                             <i class="fa-solid fa-check text-slate-500"></i>
                         </td>
                      
                     </tr>
                     <tr class="border-b border-solid border-slate-200">
-                        <td class="border-r border-solid border-white pl-4 pr-8 py-4 font-semibold text-sm whitespace-nowrap">
+                        <td class="border-r border-solid border-white pl-4  py-4 font-semibold text-sm whitespace-nowrap">
                             Node.js <i class="fa-brands fa-node-js"></i>
                         </td>
-                        <td>
+                        <td class="bar_ ml-10">
                             <i class="fa-solid fa-check text-slate-500"></i>
                         </td>
                     
                     </tr>
                     <tr class="border-b border-solid border-slate-200">
-                        <td class="border-r border-solid border-white pl-4 pr-8 py-4 font-semibold text-sm whitespace-nowrap">
+                        <td class="border-r border-solid border-white pl-4  py-4 font-semibold text-sm whitespace-nowrap">
                             React.js <i class="fa-brands fa-react"></i>
                         </td>
-                        <td>
+                        <td class="bar_ ml-10">
                             <i class="fa-solid fa-check text-slate-500"></i>
                         </td>
                     
                     </tr>
                     <tr class="border-b border-solid border-slate-200">
-                        <td class="border-r border-solid border-white pl-4 pr-8 py-4 font-semibold text-sm whitespace-nowrap">
+                        <td class="border-r border-solid border-white pl-4  py-4 font-semibold text-sm whitespace-nowrap">
                             PHP <i class="fa-brands fa-php"></i>
                         </td>
-                        <td>
+                        <td class="bar_ ml-10">
                             <i class="fa-solid fa-check text-slate-500"></i>
                         </td>
                     
                     </tr>
                     <tr class="border-b border-solid border-slate-200">
-                        <td class="border-r border-solid border-white pl-4 pr-8 py-4 font-semibold text-sm whitespace-nowrap">
+                        <td class="border-r border-solid border-white pl-4  py-4 font-semibold text-sm whitespace-nowrap">
                             WordPress <i class="fa-brands fa-wordpress"></i>
                         </td>
-                        <td>
+                        <td class="bar_ ml-10">
                             <i class="fa-solid fa-check text-slate-500"></i>
                         </td>
                     
                     </tr>
                     <tr class="border-b border-solid border-slate-200">
-                        <td class="border-r border-solid border-white pl-4 pr-8 py-4 font-semibold text-sm whitespace-nowrap">
+                        <td class="border-r border-solid border-white pl-4  py-4 font-semibold text-sm whitespace-nowrap">
                             C <i class="fa-solid fa-hashtag"></i>
                         </td>
-                        <td>
+                        <td class="bar_ ml-10">
                             <i class="fa-solid fa-check text-slate-500"></i>
                         </td>
                     
                     </tr>
                     <tr class="border-b border-solid border-slate-200">
-                        <td class="border-r border-solid border-white pl-4 pr-8 py-4 font-semibold text-sm whitespace-nowrap">
+                        <td class="border-r border-solid border-white pl-4  py-4 font-semibold text-sm whitespace-nowrap">
                             SQL <i class="fa-solid fa-database"></i>
                         </td>
-                        <td>
+                        <td class="bar_ rounded ml-10">
                             <i class="fa-solid fa-check text-slate-500"></i>
                         </td>
                     
                     </tr>
                     <tr class="border-b border-solid border-slate-200">
-                        <td class="border-r border-solid border-white pl-4 pr-8 py-4 font-semibold text-sm whitespace-nowrap">
+                        <td class="border-r border-solid border-white pl-4  py-4 font-semibold text-sm whitespace-nowrap">
                             Git <i class="fa-brands fa-git-alt"></i>
                         </td>
-                        <td>
+                        <td class="bar_ ml-10">
                             <i class="fa-solid fa-check text-slate-500"></i>
                         </td>
                     
@@ -342,10 +342,10 @@
             </table>        
         </div>
 
-        <div class="mx-auto -mt-12 italic sm:hidden opacity-50">
+        <!-- <div class="mx-auto -mt-12 italic sm:hidden opacity-50">
             <p>Scroll to see more &rarr;</p>
-        </div>
-        <p class="mx-auto">So why not invest?</p>
+        </div> -->
+        <p class="mx-auto">So why not invest?</p> 
 
     </section>
 

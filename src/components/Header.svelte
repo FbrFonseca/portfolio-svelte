@@ -29,6 +29,8 @@
         {/each}
         
     </div> 
+    <!-- make this and icon when on small devices! -->
+    <h4 onclick="" id="CV" class="gap-4 pr-3 duration-200 hover:text-violet-400">Dowload CV</h4> 
 
     <a 
         href="https://www.linkedin.com/in/fpfonseca" 
@@ -39,7 +41,10 @@
             class="absolute top-0 right-full w-full h-full bg-violet-400 opacity-20 group-hover:translate-x-full z-0 duration-200"
         />
 
+        
+
         <h4 class="relative z-9">Get in touch</h4>
+        
     </a>
 
     
