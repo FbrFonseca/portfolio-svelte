@@ -30,7 +30,16 @@
         
     </div> 
     <!-- make this and icon when on small devices! create a drowdown menu -->
-    <h4 onclick="" id="CV" class="gap-4 pr-3 duration-200 hover:text-violet-400">Dowload CV</h4> 
+    <!-- <h4 onclick="" id="CV" class="gap-4 pr-3 duration-200 hover:text-violet-400">Download CV</h4>  -->
+    <ul class="">
+        <li><a href="#">Download CV</a>
+            <ul class="dropdown">
+                <li>Dowload .pdf</li>
+                <li>By email</li>
+            </ul>
+        </li>
+
+    </ul>
     <a 
         href="https://www.linkedin.com/in/fpfonseca" 
         target="_blank" 

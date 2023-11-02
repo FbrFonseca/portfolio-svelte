@@ -217,7 +217,7 @@
         <!-- <div class="mx-auto -mt-12 italic sm:hidden opacity-50">
             <p>Scroll to see more &rarr;</p>
         </div> -->
-        <p class="mx-auto">So why not invest?</p> 
+        <p class="mx-auto text-2xl">So why not invest?</p> 
 
     </section>
 
