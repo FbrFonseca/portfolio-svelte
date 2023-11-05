@@ -6,7 +6,7 @@ border-violet-950 flex flex-col gap-4 sm:gap-8 justify-center items-center"
     </p>
     <div class="flex flex-col gap-4 items-center justify-center">
         <p>
-            <a href="https://www.fabriciofonseca.com" 
+            <a href="FabricioFonsecaCV.pdf" 
             target="_blank" class="text-violet-400"
             > 
                 Fabricio Fonseca<sup class="text-xs scale-75 pl-0.5">
