@@ -30,7 +30,7 @@
         
     </div> 
     <!-- make this and icon when on small devices! create a drowdown menu -->
-    <a href="/" id="CV" target="_blank" class="gap-4 pr-3 duration-200 hover:text-violet-400">Dowload CV</a>
+    <a href="../public/FabricioFonsecaCV.pdf" id="CV" target="_blank" class="gap-4 pr-3 duration-200 hover:text-violet-400">Dowload CV</a>
     <a 
         href="https://www.linkedin.com/in/fpfonseca" 
         target="_blank" 
