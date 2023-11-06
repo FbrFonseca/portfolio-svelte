@@ -1,5 +1,9 @@
 <script>
     import Step from './Step.svelte';
+    import { dev } from '$app/environment';
+    import { inject } from '@vercel/analytics';
+ 
+    inject({ mode: dev ? 'development' : 'production' });
 
     let steps = [
         {name:'Fonsecar', icon:'fa-solid fa-car', href:'https://github.com/FbrFonseca/Next-js-fonsecar'},
@@ -154,43 +158,43 @@
 
         <h5 class="text-2xl sm:text-3xl font-semibold text-center poppins">The <span class="text-violet-500 poppins">Complete</span> Package</h5>
 
-        <div class="flex flex-col gap-10 max-w-[800] text-base font-bold p-4 rounded mx-auto w-full bg-white">
-            <div class="">
+        <div class="flex flex-col gap-10 max-w-[800] text-base font-bold p-4 rounded mx-auto w-full bg-white" id="scrollDiv">
+            <div class="" id="skills">
               <div class="skill-name text-slate-950">HTML</div>
               <div class="skill-bar bg-slate-700">
                 <div class="skill-per bg-violet-400" style="max-width:90%"></div>
               </div>
             </div>
           
-            <div class="">
+            <div class="" id="skills">
               <div class="skill-name text-slate-950">CSS</div>
               <div class="skill-bar bg-slate-700">
                 <div class="skill-per bg-violet-400" style="max-width:75%"></div>
               </div>
             </div>
           
-            <div class="">
+            <div class="" id="skills">
               <div class="skill-name text-slate-950">Javascript</div>
               <div class="skill-bar bg-slate-700">
                 <div class="skill-per bg-violet-400" style="max-width:95%"></div>
               </div>
             </div>
             
-            <div class="">
+            <div class="" id="skills">
                 <div class="skill-name text-slate-950">Node.js</div>
                 <div class="skill-bar bg-slate-700">
                   <div class="skill-per bg-violet-400" style="max-width:80%"></div>
                 </div>
             </div>
 
-            <div class="">
+            <div class="" id="skills">
                 <div class="skill-name text-slate-950">React.js</div>
                 <div class="skill-bar bg-slate-700">
                     <div class="skill-per bg-violet-400" style="max-width:85%"></div>
                 </div>
             </div>
 
-            <div class="">
+            <div class="" id="skills">
                 <div class="skill-name text-slate-950">C#</div>
                 <div class="skill-bar bg-slate-700">
                     <div class="skill-per bg-violet-400" style="max-width:97%"></div>
