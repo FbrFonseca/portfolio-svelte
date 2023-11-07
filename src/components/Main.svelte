@@ -13,9 +13,9 @@
 
     let benefits = [
         {name: 'a computer science student', 
-        description: 'in the 3rd year of my degree, a tech enthisiast and have been amazed by what technology can lead us since the first time my brother let me play with his super nintendo.'},
+        description: 'in the 3rd year and looking for a placement, a tech enthusiast and I have been amazed by what technology can lead us since the first time my brother let me play with his super nintendo.'},
         {name: 'a full stack developer', 
-        description: 'to be 😅. I know, it sounds a bit too much to say it right now, but i am working my way become one. I am experimenting and testing as much as i can with a veriety of techs including C#, JavaScript, PHP, Python, WordPress and others.'},
+        description: 'to be 😅. I know, right now it sounds a bit too much to say, but I am working my way to become one. I am experimenting and testing as much as I can with a veriety of techs including C#, JavaScript, PHP, Python, WordPress and others.'},
         {name: 'an excellent communicator', 
         description: 'As an international student, I not only learn to get along with people from different backgrounds but also to explore it. I enjoy traveling, hiking, meeting new people, and I am always up for a good laugh 🍻.'},
     ];
@@ -32,7 +32,7 @@
             </h2>
 
             <p class="text-base sm:text-lg md:text-xl">
-                My <span class="text-violet-400">favourite tech</span> includes JavaScript, React.js Next.js Node.js, Svelte!
+                My <span class="text-violet-400">favourite tech</span> includes JavaScript, React.js, Next.js, Node.js & Svelte!
             </p>
 
             <a 
@@ -70,17 +70,6 @@
             </h3>
         
         </div>
-
-        <!-- <a 
-            href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
-            target="_blank"
-            class="mx-auto px-4 py-2 rounded-md border border-solid
-                border-white flex items-center gap-2 -mb-4 sm:-mb-0 -mt-10
-                hover:border-violet-700 duration-200"
-        >
-            <i class="fa-regular fa-circle-play" />
-            <p>Watch the video</p>
-        </a> -->
         
         <div class="grid grid-cols-1 lg:grid-cols-3 gap-12 lg:gap-10">
             
@@ -174,7 +163,7 @@
             </div>
           
             <div class="" id="skills">
-              <div class="skill-name text-slate-950">Javascript</div>
+              <div class="skill-name text-slate-950">JavaScript</div>
               <div class="skill-bar bg-slate-700">
                 <div class="skill-per bg-violet-400" style="max-width:95%"></div>
               </div>
@@ -217,11 +206,7 @@
           
         </div>
           
-
-        <!-- <div class="mx-auto -mt-12 italic sm:hidden opacity-50">
-            <p>Scroll to see more &rarr;</p>
-        </div> -->
-        <p class="mx-auto">So why not invest?</p> 
+        <p class="poppins mx-auto text-3xl ">So why not invest?</p> 
 
     </section>
 
